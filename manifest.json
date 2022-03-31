@@ -1,0 +1,16 @@
+{
+    "name": "Twitch Gatherer Plugin",
+    "description": "This Chrome extension is designed to automatically collect channel points",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": {
+            "512": "/icons/twitch_512.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "512": "/icons/twitch_512.png"
+    },
+    "permissions": ["activeTab", "scripting", "storage"]
+}

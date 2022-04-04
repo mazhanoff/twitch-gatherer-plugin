@@ -12,5 +12,8 @@
     "icons": {
         "512": "/icons/twitch_512.png"
     },
+    // "background": {
+    //     "service_worker": "background.js"
+    // },
     "permissions": ["activeTab", "scripting", "storage"]
 }
